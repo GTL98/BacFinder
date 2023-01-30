@@ -5,13 +5,7 @@ import PyPDF2
 
 def conversor_pdf_txt(pasta: str, arquivo: str):
     """Função responsável por extrair as linhas do arquivo PDF e escrevê-las num arquivo TXT."""
-
-    # Selecionar o arquivo infomado
-    # arquivo_usado = ''
-    # for doc in os.listdir(pasta):
-    #     if doc == f'{arquivo}':
-    #         arquivo_usado = doc
-
+    
     # Indicar os caminhos do arquivo TXT e do caminho do PDF
     caminho_saida = 'txt_temp/txt_temp.txt'
     caminho_completo = f'{pasta}/{arquivo}'
