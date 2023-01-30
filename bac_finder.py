@@ -85,7 +85,8 @@ class BacFinder(QMainWindow):
         """Função responsável por executar as funções."""
 
         # Obter o nome das bactérias
-        bacterias = self.ui.linha_bacterias.text().replace(' ', '').split(',')
+        bacterias_split = self.ui.linha_bacterias.text().split(',')
+        bacterias = [bac.strip() for bac in bacterias_split]
 
         # Executar a conversão de PDF para TXT
         conversor_pdf_txt(self.caminho_pdf, self.arquivo_pdf)
