@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="icones">
+    <file>icones/clipart1887830.png</file>
+    <file>icones/criar.png</file>
+    <file>icones/abrir.png</file>
+    <file>icones/excluir.png</file>
+    <file>icones/executar.png</file>
+    <file>icones/salvar.png</file>
+  </qresource>
+</RCC>
